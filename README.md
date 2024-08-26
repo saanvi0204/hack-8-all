@@ -17,9 +17,11 @@ We scraped Codeforces data for various user handles, retrieving details such as:
 
 •	No of rated contests
 
+
 -- Data Preprocessing:
 
 The collected data was cleaned and pre-processed to handle missing values and normalize features.
+
 
 -- K-means Clustering:
 
@@ -28,24 +30,24 @@ Elbow Method is used to choose optimal number of clusters for K-means clustering
 
 ## Defining the personas
 
-Explorer (Cluster number 6): Low rating, less number of problems solved and contests attended and recent date of joining contests, we can say that the user is new to competitive programming.
+1. Explorer (Cluster number 6): Low rating, less number of problems solved and contests attended and recent date of joining contests, we can say that the user is new to competitive programming.
 
-Seeker (Cluster number 1): Average rating, modest number of problems solved and contests given as well as recent year of joining contest indicates that this user is learning basic concepts.
+2. Seeker (Cluster number 1): Average rating, modest number of problems solved and contests given as well as recent year of joining contest indicates that this user is learning basic concepts.
 
-Contest Regular (Cluster number 5): High Rating, large number of questions solved and contests given indicates practice but perhaps saturation
+3. Contest Regular (Cluster number 5): High Rating, large number of questions solved and contests given indicates practice but perhaps saturation
 
-Strategist (Cluster number 3): High Rating, modest number of questions solved and contests given, early joining and low number of questions solved last month indicating good logic but a loss of interest
+4. Strategist (Cluster number 3): High Rating, modest number of questions solved and contests given, early joining and low number of questions solved last month indicating good logic but a loss of interest
 
-Visionary (Cluster Number 0): Very high rating, higher number of questions solved indicating good logic
+5. Visionary (Cluster Number 0): Very high rating, higher number of questions solved indicating good logic
 
-Achiever (Cluster Number 2): Millimetres away from perfection
+6. Achiever (Cluster Number 2): Millimetres away from perfection
 
-Mastermind (Cluster Number 4): Already achieved perfection
+7. Mastermind (Cluster Number 4): Already achieved perfection
 
 
 ## Use Case
 ### Personalized Learning Recommendations
-
 The personas can be integrated into ed-tech platforms to recommend courses tailored to improve weaknesses, training plans for upcoming contests, roadmaps for advancing in their programming journey.
-Applications and Future Work
+
+## Applications and Future Work
 This approach can be extended to other competitive programming platforms or adapted for broader educational contexts. Future improvements could include integrating additional features like user engagement metrics or implementing a dynamic recommendation engine based on real-time performance updates.
