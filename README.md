@@ -5,6 +5,7 @@ This project focuses on retrieving data from Codeforces user handles and applyin
 
 ## Approach
 -- Data Collection: 
+
 We scraped Codeforces data for various user handles, retrieving details such as:
 
 •	Rating
@@ -46,7 +47,7 @@ Elbow Method is used to choose optimal number of clusters for K-means clustering
 
 
 ## Use Case
-### Personalized Learning Recommendations
+#### Personalized Learning Recommendations
 The personas can be integrated into ed-tech platforms to recommend courses tailored to improve weaknesses, training plans for upcoming contests, roadmaps for advancing in their programming journey.
 
 ## Applications and Future Work
