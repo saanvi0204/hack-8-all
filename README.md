@@ -8,15 +8,7 @@ This project focuses on retrieving data from Codeforces user handles and applyin
 
 We scraped Codeforces data for various user handles, retrieving details such as:
 
-•	Rating
-
-•	Number of problems solved
-
-•	Number of problems solved in last month
-
-•	First contest year
-
-•	No of rated contests
+•	Rating  •	Number of problems solved  •	Number of problems solved in last month  •	First contest year  •	No of rated contests
 
 
 -- Data Preprocessing:
