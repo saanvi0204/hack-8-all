@@ -4,6 +4,7 @@ On platforms like Codeforces, a user's rating is often seen as a primary indicat
 This project focuses on retrieving data from Codeforces user handles and applying machine learning model to categorize users into distinct personas. These personas can be leveraged by ed-tech platforms to recommend personalized learning paths, based on each user’s achievements.
 
 Approach:
+
 Data Collection: We scraped Codeforces data for various user handles, retrieving details such as:
 •	Rating
 •	Number of problems solved
