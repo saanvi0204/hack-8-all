@@ -3,7 +3,7 @@
 On platforms like Codeforces, a user's rating is often seen as a primary indicator of their skill level. However, rating alone doesn’t provide a full picture of a user’s journey or learning needs. Ratings can be inconsistent due to factors like irregular contest participation, rating inflation, or temporary slumps. To create accurate user personas, we need to look beyond just ratings and consider other factors as well.
 This project focuses on retrieving data from Codeforces user handles and applying machine learning model to categorize users into distinct personas. These personas can be leveraged by ed-tech platforms to recommend personalized learning paths, based on each user’s achievements.
 
-Approach:
+## Approach:
 
 -- Data Collection: 
 We scraped Codeforces data for various user handles, retrieving details such as:
