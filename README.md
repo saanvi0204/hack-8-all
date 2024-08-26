@@ -5,7 +5,7 @@ This project focuses on retrieving data from Codeforces user handles and applyin
 
 Approach:
 
-Data Collection: 
+-- Data Collection: 
 We scraped Codeforces data for various user handles, retrieving details such as:
 
 •	Rating
@@ -18,11 +18,11 @@ We scraped Codeforces data for various user handles, retrieving details such as:
 
 •	No of rated contests
 
-Data Preprocessing:
+-- Data Preprocessing:
 
 The collected data was cleaned and pre-processed to handle missing values and normalize features.
 
-K-means Clustering:
+-- K-means Clustering:
 
 Elbow Method is used to choose optimal number of clusters for K-means clustering algorithm which was then used to group users into seven personas. The model was trained using features as mentioned above.
 
